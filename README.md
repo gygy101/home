@@ -1,55 +1,32 @@
-# Astro Starter Kit: Basics
+本项目基于 [/Xhofe/homepage](https://github.com/Xhofe/homepage) 进行修改，为二次开源
+弓幺の个人主页
+
+项目预览[点击这里](https://gygy.club)
+
+先运行git clone命令
 
 ```
-npm create astro@latest -- --template basics
+git clone https://github.com/gygy101/home    
+git clone https://gitee.com/gygy101/home   #国内的服务器可以使用这条拉取Gitee中的文件
 ```
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+至服务器，然后运行npm install安装扩展，配置 ./src文件夹中的文件，运行npm run build构建./dist文件夹
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+（注：每次更改./src文件夹中的文件需要重新构建./dist文件夹）
 
-![basics](https://user-images.githubusercontent.com/4677417/186188965-73453154-fdec-4d6b-9c34-cb35c248ae5b.png)
+index.html在 ./dist 文件夹中，网站目录选择在 /dist文件夹
 
+运行node指令时在./文件夹中运行
 
-## 🚀 Project Structure
+| Command       | Action               |
+| :------------ | :------------------- |
+| `npm install` | 安装扩展             |
+| npm run build | 在./dist/`中构建网站 |
 
-Inside of your Astro project, you'll see the following folders and files:
+Github[点我访问](https://github.com/gygy101/home)  
 
-```
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── components/
-│   │   └── Card.astro
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+Gitee[点我访问](https://Gitee.com/gygy101/home)（注：国内访问慢可以使用Gitee）
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+(更多内容懒得补充了，有需要的可以查看[源项目](https://github.com/Xhofe/homepage))
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
-
-Any static assets, like images, can be placed in the `public/` directory.
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:3000`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+主页由[星辰云](https://starxn.com/aff/QSSNGOED)提供云计算服务
